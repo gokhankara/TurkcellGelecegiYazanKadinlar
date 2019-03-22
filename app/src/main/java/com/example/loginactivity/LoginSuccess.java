@@ -48,11 +48,7 @@ public class LoginSuccess extends AppCompatActivity {
         Personel calican2 = new Personel
                 ("Ahmet","Osmanoğlu","Terzi");
 
-        calican.Getir2();
-
-        float sonuc =  calican.Getir();
-
-
+  
     /*
         isimler[3].toString();
         String degerlerToplami= "";

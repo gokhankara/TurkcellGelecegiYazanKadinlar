@@ -25,23 +25,4 @@ public class Personel {
 
     }
 
-    public float Getir (){
-
-        int a = 5;
-        int b = 4;
-
-        return a/b;
-    }
-
-    public void Getir2 (){
-
-        int a = 5;
-        int b = 4;
-    }
-
-    public void Getir3 (){
-
-        int a = 5;
-        int b = 4;
-    }
 }
