@@ -38,4 +38,10 @@ public class Personel {
         int a = 5;
         int b = 4;
     }
+
+    public void Getir3 (){
+
+        int a = 5;
+        int b = 4;
+    }
 }
