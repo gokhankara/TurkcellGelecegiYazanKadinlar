@@ -56,11 +56,11 @@
                 android:layout_weight="1"
                 android:text="Haritaya Git"
                 android:textColor="@color/ColorMenuActivityButtonWhite"
-                android:background="@android:color/holo_purple"/>
+                android:background="@android:color/holo_purple" />
 
             <Button
                 android:layout_marginLeft="5dp"
-                android:id="@+id/open_web"
+                android:id="@+id/btnWebSayfasi"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"

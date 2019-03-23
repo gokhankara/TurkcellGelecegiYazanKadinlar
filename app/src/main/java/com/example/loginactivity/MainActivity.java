@@ -48,4 +48,14 @@ public class MainActivity extends AppCompatActivity {
     //    Intent intent = new Intent(this, LoginSuccess.class);
     //    startActivity(intent);
         }
+
+    public void OpenMapActivty(View view) {
+        Log.i("Bilgi", "OpenMap methodu çalışmaya başladı... ");
+        Intent mapIntent = new Intent(this, map.class);
+        Log.i("Bilgi", "Intent Class'ı oluşturuldu... ");
+        startActivity(mapIntent);
     }
+
+    public void OpenMapActivti(View view) {
+    }
+}
