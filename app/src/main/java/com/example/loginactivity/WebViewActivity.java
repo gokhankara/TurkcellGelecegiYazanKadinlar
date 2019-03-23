@@ -35,6 +35,5 @@ public class WebViewActivity extends AppCompatActivity {
         });
 
         webView.loadUrl("https://gelecegiyazanlar.turkcell.com.tr");
-
     }
 }
