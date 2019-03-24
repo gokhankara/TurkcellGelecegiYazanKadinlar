@@ -40,6 +40,7 @@ public class FotoVeVideo extends AppCompatActivity {
             public void onClick(View view) {
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
                 startActivityForResult(takePictureIntent, VIDEO_ACTION_CODE);
+                
             }
         });
     }
