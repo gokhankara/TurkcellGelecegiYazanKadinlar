@@ -37,35 +37,34 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
 
         buttonAramayap = (Button) findViewById(R.id.btnAramaYap);
         buttonAramayap.setOnClickListener((View.OnClickListener) this);
+
     }
 
     @Override
     public void onClick(View view) {
         if (view == butonHarita) {
-            Intent hariteIntent = new Intent(Menu.this, map.class);
-            startActivity(hariteIntent);
+            Intent intent = new Intent(Menu.this, map.class);
+            startActivity(intent);
         }
         else if (view == butonWebSayfasi){
-            Intent webSayfasiInten = new Intent(Menu.this, WebSayfasi.class);
-            startActivity(webSayfasiInten);
+            Intent intent = new Intent(Menu.this, WebSayfasi.class);
+            startActivity(intent);
         }
         else if(view == buttonAramayap) {
-            Intent webSayfasiInten = new Intent(Menu.this, AramaYap.class);
-            startActivity(webSayfasiInten);
+            Intent intent = new Intent(Menu.this, AramaYap.class);
+            startActivity(intent);
         }
         else if (view == butonOpenFotoAndVideo){
-            Intent webSayfasiInten = new Intent(Menu.this, FotoVeVideo.class);
-            startActivity(webSayfasiInten);
+            Intent intent = new Intent(Menu.this, FotoVeVideo.class);
+            startActivity(intent);
         }
         else if(view == buttonSesKayit) {
-            Intent webSayfasiInten = new Intent(Menu.this, SesKayit.class);
-            startActivity(webSayfasiInten);
+            Intent intent = new Intent(Menu.this, SesKayit.class);
+            startActivity(intent);
         }
-        /*
-        else  (view == buttonSMSGonder){
-            Intent webSayfasiInten = new Intent(Menu.this, SesKayit.class);
-            startActivity(webSayfasiInten);
+        else {
+            Intent intent = new Intent(Menu.this, SMSGonder.class);
+            startActivity(intent);
         }
-        */
     }
 }

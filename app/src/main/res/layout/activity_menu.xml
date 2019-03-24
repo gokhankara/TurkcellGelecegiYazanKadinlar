@@ -97,8 +97,6 @@
                 android:textColor="@color/ColorMenuActivityButtonWhite"
                 android:background="@android:color/holo_red_dark"/>
         </LinearLayout>
-
-
     </LinearLayout>
 
 </LinearLayout>

@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Sanal Asistanım</string>
     <string name="WebSayfasiSayfaIsmi">İnternet Tarayıcı</string>
-
-
-
+    <string name="HaritaSayfasiSayfaIsmi">Haritalama Sayfası</string>
+    <string name="AramaYapSayfasiSayfaIsmi">Arama Yap</string>
+    <string name="FotoVeVideoSayfasiSayfaIsmi">Fotoğraf ve Video</string>
+    <string name="SMSSayfasiSayfaIsmi">SMS İşlemleri</string>
+    <string name="SesKayitSayfasiSayfaIsmi">Ses Kayit İşlemleri</string>
 </resources>
