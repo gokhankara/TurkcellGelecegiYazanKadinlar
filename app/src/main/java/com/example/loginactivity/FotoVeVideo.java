@@ -14,9 +14,8 @@ import android.widget.VideoView;
 public class FotoVeVideo extends AppCompatActivity {
 
     Button btnFotoCek;
-    Button btnVideoCek;
-
     Button fotoCek;
+    Button videoKaydet;
 
     private static final int VIDEO_ACTION_CODE = 101;
     private static final int IMAGE_ACTION_CODE = 102;
