@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_weight="1"
-            android:text="Fotoğraf Çek" />
+            android:text="Video Kayıt" />
 
         <Button
             android:id="@+id/btnVideoCek"
@@ -41,6 +41,6 @@
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="Video Kayıt" />
+            android:text="Fotoğraf Çek" />
     </LinearLayout>
 </RelativeLayout>
