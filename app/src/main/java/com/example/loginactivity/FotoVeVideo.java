@@ -69,6 +69,5 @@ public class FotoVeVideo extends AppCompatActivity {
             default:
                 break;
         }
-
     }
 }
