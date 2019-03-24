@@ -12,8 +12,6 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class FotoVeVideo extends AppCompatActivity {
-
-    Button btnFotoCek;
     Button fotoCek;
     Button videoKaydet;
 
@@ -32,8 +30,8 @@ public class FotoVeVideo extends AppCompatActivity {
         fotoCek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent takePhotoIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(takePhotoIntent, IMAGE_ACTION_CODE);
+                Intent fotoIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(fotoIntent, IMAGE_ACTION_CODE);
             }
         });
 
