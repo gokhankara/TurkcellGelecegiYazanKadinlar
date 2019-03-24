@@ -21,7 +21,7 @@
             android:weightSum="2">
 
             <Button
-                android:id="@+id/open_photo_and_video"
+                android:id="@+id/btnOpenFotoAndVideo"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
@@ -31,7 +31,7 @@
 
             <Button
                 android:layout_marginLeft="5dp"
-                android:id="@+id/open_voice"
+                android:id="@+id/btnSesKayit"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
@@ -79,7 +79,7 @@
             android:weightSum="2">
 
             <Button
-                android:id="@+id/send_sms"
+                android:id="@+id/btnSmsGonder"
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:layout_width="150dp"
@@ -89,7 +89,7 @@
 
             <Button
                 android:layout_marginLeft="5dp"
-                android:id="@+id/dial_call"
+                android:id="@+id/btnAramaYap"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"

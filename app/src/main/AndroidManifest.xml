@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WebSayfasi" android:label="@string/WebSayfasiSayfaIsmi"></activity>
-        <activity android:name=".map" android:label="Haritalama Sayfası" />
+        <activity android:name=".AramaYap"></activity>
+        <activity android:name=".SMSGonder" />
+        <activity android:name=".SesKayit" />
+        <activity android:name=".FotoVeVideo" />
+        <activity
+            android:name=".WebSayfasi"
+            android:label="@string/WebSayfasiSayfaIsmi" />
+        <activity
+            android:name=".map"
+            android:label="Haritalama Sayfası" />
         <activity android:name=".Menu" />
         <activity android:name=".LoginSuccess" />
         <activity android:name=".MainActivity">

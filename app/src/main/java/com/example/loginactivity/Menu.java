@@ -10,6 +10,10 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
 
     Button butonHarita;
     Button butonWebSayfasi;
+    Button butonOpenFotoAndVideo;
+    Button buttonSesKayit;
+    Button buttonSMSGonder;
+    Button buttonAramayap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,18 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
 
         butonWebSayfasi = (Button) findViewById(R.id.btnWebSayfasi);
         butonWebSayfasi.setOnClickListener((View.OnClickListener) this);
+
+        butonOpenFotoAndVideo = (Button) findViewById(R.id.btnOpenFotoAndVideo);
+        butonOpenFotoAndVideo.setOnClickListener((View.OnClickListener) this);
+
+        buttonSesKayit = (Button) findViewById(R.id.btnSesKayit);
+        buttonSesKayit.setOnClickListener((View.OnClickListener) this);
+
+        buttonSMSGonder = (Button) findViewById(R.id.btnSmsGonder);
+        buttonSMSGonder.setOnClickListener((View.OnClickListener) this);
+
+        buttonAramayap = (Button) findViewById(R.id.btnAramaYap);
+        buttonAramayap.setOnClickListener((View.OnClickListener) this);
     }
 
     @Override
@@ -33,5 +49,23 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
             Intent webSayfasiInten = new Intent(Menu.this, WebSayfasi.class);
             startActivity(webSayfasiInten);
         }
+        else if(view == buttonAramayap) {
+            Intent webSayfasiInten = new Intent(Menu.this, AramaYap.class);
+            startActivity(webSayfasiInten);
+        }
+        else if (view == butonOpenFotoAndVideo){
+            Intent webSayfasiInten = new Intent(Menu.this, FotoVeVideo.class);
+            startActivity(webSayfasiInten);
+        }
+        else if(view == buttonSesKayit) {
+            Intent webSayfasiInten = new Intent(Menu.this, SesKayit.class);
+            startActivity(webSayfasiInten);
+        }
+        /*
+        else  (view == buttonSMSGonder){
+            Intent webSayfasiInten = new Intent(Menu.this, SesKayit.class);
+            startActivity(webSayfasiInten);
+        }
+        */
     }
 }
