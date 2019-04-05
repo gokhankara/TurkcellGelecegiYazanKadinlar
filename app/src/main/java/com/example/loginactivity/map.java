@@ -19,7 +19,7 @@ public class map extends AppCompatActivity {
 
     public void OpenMap(View view) {
         //41,00527	28,97696
-      Uri geolocation =  Uri.parse("geo:41,00527,28,97696");
+      Uri geolocation =  Uri.parse("geo:40.901786, 29.218948");
 
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(geolocation);

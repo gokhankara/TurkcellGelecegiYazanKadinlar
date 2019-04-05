@@ -34,14 +34,12 @@ public class SMSGonder extends AppCompatActivity {
 
                 Log.i("Bilgi", "Telefon No:  " + telefonNo);
                 Log.i("Bilgi", "SMS Metni: " +smsMetni);
-             //   Uri uri= Uri.parse("smsto:" + telefonNo);
+               Uri uri= Uri.parse("smsto:" + telefonNo);
 
-             //  Intent intent = new Intent(Intent.ACTION_SENDTO,uri);
-                //   intent.putExtra("smsbody", smsMetni);
-             //   startActivity(intent);
+              Intent intent = new Intent(Intent.ACTION_SENDTO,uri);
+              intent.putExtra("sms_body", smsMetni);
+              startActivity(intent);
 
-             //   android.telephony.SmsManager sms=android.telephony.SmsManager.getDefault();
-             //   sms.sendTextMessage(telefonNo, null, smsMetni, null, null);
             }
         });
     }
