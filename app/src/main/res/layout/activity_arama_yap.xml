@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AramaYap">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".AramaYap"
+    android:layout_gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/txtTelNo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Telefon Numarası Giriniz"
+        android:inputType="phone"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnAra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Ara"
+        android:layout_marginTop="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/txtTelNo"/>
+</RelativeLayout>
