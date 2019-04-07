@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("Bilgi", "Main Activity burada bitmiştir... ");
 
-        Intent hosgeldinizActivity = new Intent(this, LoginSuccess.class);
+        Intent hosgeldinizActivity = new Intent(this, Anasayfa.class);
         hosgeldinizActivity.putExtra("MainActivityKullaniciAdi",kulAdi);
         startActivity(hosgeldinizActivity);
 
