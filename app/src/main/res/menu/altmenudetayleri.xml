@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/altmenu_Anasayfa"
+    android:icon="@drawable/ic_home_black_24dp">
+</item>
+
+    <item
+        android:title="Sepete Ekle"
+        android:icon="@drawable/ic_shopping_cart_black_24dp">
+
+    </item>
+    <item
+        android:title="Ödeme Yap"
+        android:icon="@drawable/ic_payment_black_24dp">
+    </item>
+
+    <item
+        android:title="@string/altmenu_Hesabim"
+        android:icon="@drawable/ic_account_box_black_24dp">
+
+    </item>
+
+    <item
+        android:title="Çıkış"
+        android:icon="@drawable/ic_exit_to_app_black_24dp">
+
+    </item>
+</menu>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LoginActivity</string>
+
+    <string name="altmenu_Anasayfa">Anasayfa</string>
+    <string name="altmenu_Hesabim">Hesabım</string>
 </resources>
